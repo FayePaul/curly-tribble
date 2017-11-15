@@ -1,18 +1,10 @@
-
-h1
-{
-  text-align: center;
-}
-b
-{
-  color: #5C4033;
-}
 *
 {
   font-family: Arial;
 }
-div
+#liens
 {
-  margin-left: 50px;
-  margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

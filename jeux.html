@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+		<script src="http://lab.subinsb.com/projects/jquery/core/jquery-2.1.1.js"></script>
+		<script src="http://lab.subinsb.com/projects/jquery/chess/jquery.chess.min.js"></script>
+ 	</head>
+ 	<body>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Accueil</a></li>
+        <li><a href="./git.html">Aide Git</a></li>
+      </ul>
+    </nav>
+
+		<div id="content">
+			<div id="game"></div>
+			<script>
+				$(document).ready(function(){
+					$("#game").chess();
+				});
+			</script>
+		</div>
+		<!-- http://subinsb.com/jquery-chess-game -->
+ 	</body>
+</html>
